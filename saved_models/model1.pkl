@@ -1,0 +1,20 @@
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import load_model
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+
+model1 = Sequential([
+    Conv2D(32, (3, 3), activation='relu', input_shape=(256, 256, 3)),
+    MaxPooling2D(pool_size=(2, 2)),
+    Flatten(),
+    Dense(128, activation='relu'),
+    Dense(num_classes, activation='softmax')
+
+])
+
+model1.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+history1 = model1.fit(train_data, epochs=5, validation_data=val_data)
+# After training the model
+
+model1.save('saved_models/model1.h5')
+

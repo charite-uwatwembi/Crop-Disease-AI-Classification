@@ -110,9 +110,6 @@ Two models were developed and compared:
 | Training Accuracy | 93.75% | 93.75% |
 | Validation Accuracy | 90.91% | 95.45% |
 | Test Accuracy | 91.67% | 85.06% |
-| Macro F1 Score | Not provided | 0.8363 |
-| Micro F1 Score | Not provided | 0.8517 |
-| Weighted F1 Score | Not provided | 0.8462 |
 
 ## Conclusion
 While the optimized model showed improved performance on the validation set, its lower test accuracy suggests potential overfitting. The F1 scores indicate reasonably good performance across classes, but there's room for improvement in generalization and handling potential class imbalances.

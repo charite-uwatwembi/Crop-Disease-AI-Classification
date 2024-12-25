@@ -1,4 +1,4 @@
-# Crop Disease AI Classification for Rwanda
+# Crop Disease AI Classification for Rwandan farmers
 
 ## Project Structure
 ```

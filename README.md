@@ -20,7 +20,7 @@ CROP-DISEASE-AI-CLASSIFICATION/
 ```
 
 ## Project Overview
-This project aims to develop a machine learning model for classifying crop diseases in Rwanda, focusing on key crops such as potato, tomato, and pepper bell. The project utilizes Convolutional Neural Networks (CNNs) to analyze images of plant leaves and identify various diseases.
+This project aims to develop a machine learning model for classifying crop diseases in Rwanda especially, focusing on key crops such as potato, tomato, and pepper bell. The project utilizes Convolutional Neural Networks (CNNs) to analyze images of plant leaves and identify various diseases.
 
 ## Dataset
 The dataset is organized into three subsets:
